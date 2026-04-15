@@ -54,7 +54,7 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ github.repository_owner }}/upside-my-app-01:latest
-            ghcr.io/${{ github.repository_owner }}/upside-my-app-01:${{ github.sha }}
+            ghcr.io/${{ github.repository_owner }}/devops-demo-api:latest
+            ghcr.io/${{ github.repository_owner }}/devops-demo-api:${{ github.sha }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
